@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <aside class="sidePanel" data-panel>
+      <div class="info-box">
+          <figure class="user-image">
+            <img src="./public/avatar.png" alt="Lucas Nunes" width="80">
+
+          </figure>
+
+          <div class="desc-content">
+              <h1 class="user-name" title="Lucas Nunes">Lucas Nunes</h1>
+
+              <p class="prof">Desenvolvedor</p>
+          </div>
+
+          <button class="viewMore-btn" data-panel-btn>
+              <span>Contatos</span>
+
+              <ion-icon name="chevron-down"></ion-icon>
+          </button>
+      </div>
+
+
+      <div class="sidepanel-viewMore">
+          <div class="spacer"></div>
+
+          <ul class="person-list">
+            <li class="person-text">
+              <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="person-info">
+                <p class="person-title">Email</p>
+
+                <a href="mailto:lucas.jlnunes@gmail.com" class="person-link">lucas.jlnunes@gmail.com</a>
+              </div>
+            </li>
+
+            <li class="person-text">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="person-info">
+                <p class="person-title">Telefone</p>
+
+                <a href="tel:+55119xx9329" class="person-link">+55 119xx9329</a>
+              </div>
+            </li>
+
+            <li class="person-text">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="person-info">
+                  <p class="person-title">Aniversário</p>
+
+                  <time datetime="2001-01-01">Jan 01, 2001</time>
+              </div>
+
+            </li>
+
+            <li class="person-text">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="person-info">
+                <p class="person-title">Localização</p>
+
+                <address>São Paulo, SP</address>
+              </div>
+
+            </li>
+          </ul>
+
+          <div class="spacer"></div> <!-- Talve retirar isso depois -->
+
+        
+      </div>
+
+    </aside>
+
+    <div class="primary-section">
+
+      <nav class="navigation">
+
+        <ul class="navigation-items">
+          <li class="navigation-item">
+            <button class="navigation-link active" data-navigation-link>Sobre</button>
+          </li>
+
+          <li class="navigation-item">
+            <button class="navigation-link" data-navigation-link>Curriculo</button>
+          </li>
+
+          <li class="navigation-item">
+            <button class="navigation-link" data-navigation-link>Portfolio</button>
+          </li>
+
+          <li class="navigation-item">
+            <button class="navigation-link" data-navigation-link>Contato</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 art-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Desenvolvedor apaixonado por aprender coisas novas. Especialista em JavaScript e seus frameworks. Aplicado e receptivo a novas idéias e feedbacks.
+          </p>
+
+          <p>
+            Gosto de criar sites que sejam tanto funcionais quanto visualmente atraentes. Busco sempre adicionar um toque especial em meus projetos, garantindo que seja fácil de usar e ao mesmo tempo impressionante. A ideia é transmitir minha mensagem e minha identidade de maneira criativa e envolvente. 
+            Embora minha experiência esteja em crescimento, estou sempre me aprimorando para entregar designs que representem fielmente o propósito da sua empresa.
+          </p>
+        </section>
+
+        
+      </article>
+    </div>
+  </main>
+</body>
+</html>
